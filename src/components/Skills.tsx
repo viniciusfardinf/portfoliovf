@@ -1,9 +1,9 @@
 import { 
   Code2, 
   Database, 
-  Smartphone, 
+  Webhook, 
   HeartHandshake, 
-  Zap, 
+  Globe, 
   Layers 
 } from "lucide-react";
 
@@ -28,21 +28,21 @@ const skills = [
   },
   {
     category: "Customer Experience",
-    items: ["Suporte Técnico", "Sucesso do Cliente", "Fidelização"],
+    items: ["Suporte Técnico", "Sucesso do Cliente", ],
     icon: <HeartHandshake className="text-pink-400" />,
     description: "Foco total na satisfação e jornada do usuário."
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo", "Mobile First"],
-    icon: <Smartphone className="text-purple-400" />,
-    description: "Aplicações otimizadas para dispositivos móveis."
+    category: "Integração API", // Alterado de Mobile
+    items: ["RESTful APIs"],
+    icon: <Webhook className="text-purple-400" />, // Ícone alterado para combinar
+    description: "Conectividade entre sistemas e consumo de dados real-time."
   },
   {
-    category: "Performance",
-    items: ["SEO", "Web Vitals", "Optimization"],
-    icon: <Zap className="text-yellow-400" />,
-    description: "Otimização para velocidade e buscadores."
+    category: "Idiomas", // Alterado de Performance
+    items: ["Inglês Avançado", "Espanhol Intermediário"],
+    icon: <Globe className="text-yellow-400" />, // Ícone alterado para combinar
+    description: "Comunicação fluida em ambientes internacionais."
   }
 ];
 

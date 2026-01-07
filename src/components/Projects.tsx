@@ -6,7 +6,7 @@ import imgPizzaria from "../images/pizzaria.png";
 
 const projects = [
   {
-    title: "BrandU",
+    title: "Brandu",
     description: "Plataforma profissional de branding e automação de identidade visual.",
     link: "https://brandu-two.vercel.app",
     image: imgBrandU,
