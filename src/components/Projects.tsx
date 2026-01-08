@@ -9,7 +9,7 @@ const projects = [
   {
     title: "CãoIdeal",
     description: "Aplicação Full Stack que utiliza lógica de match para conectar usuários à raça de cachorro ideal, com dados reais via API.",
-    link: "https://cao-ideal-frontend.vercel.app", // Substitua pelo seu link da Vercel
+    link: "https://cao-ideal.vercel.app", // Substitua pelo seu link da Vercel
     image: imgCaoIdeal,
     tags: ["React", "NestJS", "REST API", "Tailwind"]
   },
