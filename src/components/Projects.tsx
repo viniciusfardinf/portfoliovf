@@ -3,8 +3,16 @@ import ProjectCard from "./ProjectCard";
 // Importando as imagens da pasta src/images
 import imgBrandU from "../images/brandu.png";
 import imgPizzaria from "../images/pizzaria.png";
+import imgCaoIdeal from "../images/caoideal.png"; // Adicione o print do site aqui
 
 const projects = [
+  {
+    title: "CãoIdeal",
+    description: "Aplicação Full Stack que utiliza lógica de match para conectar usuários à raça de cachorro ideal, com dados reais via API.",
+    link: "https://cao-ideal-frontend.vercel.app", // Substitua pelo seu link da Vercel
+    image: imgCaoIdeal,
+    tags: ["React", "NestJS", "REST API", "Tailwind"]
+  },
   {
     title: "Brandu",
     description: "Plataforma profissional de branding e automação de identidade visual.",
@@ -14,7 +22,7 @@ const projects = [
   },
   {
     title: "Mendonza's Pizzaria",
-    description: "Cardápio de pizarria  focado em experiência do usuário e com automação para o cliente atualizar o cardápio sozinho via Planilha do Google Sheets.",
+    description: "Cardápio focado em UX com atualização dinâmica de dados via integração com Google Sheets API.",
     link: "https://mendonzas-pizzaria.vercel.app",
     image: imgPizzaria,
     tags: ["React", "CSS", "Google API"]
